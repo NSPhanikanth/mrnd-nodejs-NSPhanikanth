@@ -13,7 +13,7 @@ describe("Contacts Test Suite", function(){
 		    request.get(base_url, function(error, response, body){
 
 				expect(response.statusCode).toBe(200);
-				//expect(body).toBe("Hello World");
+				expect(body).toBe("Hello World");
 
 				done();
 		    });
